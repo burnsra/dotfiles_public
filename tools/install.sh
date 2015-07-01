@@ -35,6 +35,11 @@ brew install caskroom/cask/brew-cask coreutils git grc hub zsh
 brew cask install atom font-source-code-pro
 echo "\033[0;32m   ...complete\033[0m\n"
 
+# Install oh-my-zsh
+echo "\033[0;32mInstalling oh-my-zsh...\033[0m"
+sh -c "$(curl -fsSL https://raw.github.com/burnsra/oh-my-zsh/master/tools/install.sh)"
+echo "\033[0;32m   ...complete\033[0m\n"
+
 # Banner
 echo "\033[0;32m"'       __      __  _____ __         '"\033[0m"
 echo "\033[0;32m"'  ____/ /___  / /_/ __(_) /__  _____'"\033[0m"
